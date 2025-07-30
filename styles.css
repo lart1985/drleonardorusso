@@ -202,7 +202,7 @@ header {
 
 /* Mapa */
 .map-container {
-  margin: 0 20px 40px;
+  margin: 0 20px 60px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
