@@ -187,9 +187,13 @@ header {
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
-  color: #007bff;
+  color: #666; 
+  transition: color 0.2s ease;
 }
-.card-link:hover { text-decoration: underline; }
+.card-link:hover {
+  color: #333;   
+  text-decoration: underline;
+}
 
 /* FAQ */
 .faq {
