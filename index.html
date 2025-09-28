@@ -3,49 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito</title>
+  <title>Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito</title>
   <meta name="description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito.">
   <link rel="canonical" href="https://drleonardorusso.ec/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito">
+  <meta property="og:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito">
   <meta property="og:description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito.">
   <meta property="og:url" content="https://drleonardorusso.ec/">
   <meta property="og:image" content="https://drleonardorusso.ec/images/preview.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito">
+  <meta name="twitter:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito">
   <meta name="twitter:description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito.">
   <meta name="twitter:image" content="https://drleonardorusso.ec/images/preview.jpg">
   <meta name="twitter:site" content="@drleonardorusso">
   <meta name="twitter:creator" content="@drleonardorusso">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
   <div class="wrapper">
+    <!-- NAV principal con rutas absolutas -->
     <nav>
-      <a href="#inicio" class="logo">
-        <img src="images/logo.png" alt="Logo Dr. Leonardo Russo">
+      <a href="/" class="logo">
+        <img src="/images/logo.png" alt="Logo Dr. Leonardo Russo">
       </a>
       <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/#sobre-mi">Sobre mí</a></li>
+        <li><a href="/#servicios">Servicios</a></li>
+        <li><a href="/#contacto">Contacto</a></li>
       </ul>
     </nav>
 
     <header id="inicio">
       <div class="header-content">
         <div class="profile">
-          <img src="images/profile.png" alt="Dr. Leonardo Russo" class="profile-img">
+          <img src="/images/profile.png" alt="Dr. Leonardo Russo" class="profile-img">
         </div>
         <div class="intro">
-          <h1>Dr. Leonardo Russo</h1>
+          <h1>Dr. Leonardo Russo</h1>
           <p class="subtitle">Mastólogo y Cirujano Oncológico en Quito</p>
           <p class="tagline">Atención especializada en enfermedades mamarias y cirugía oncológica</p>
           <a href="https://wa.me/593992564792" class="btn whatsapp">Agenda tu cita</a>
@@ -54,6 +55,15 @@
     </header>
 
     <hr class="section-divider">
+
+    <!-- SUBNAVEGACIÓN TEMÁTICA (antes de Sobre mí) -->
+    <section class="subnav-buttons" aria-label="Secciones clínicas">
+      <a href="/mastologo-en-quito/" class="btn-nav">Mastología</a>
+      <a href="/tiroides/" class="btn-nav">Tiroides</a>
+      <a href="/ginecologia-oncologica/" class="btn-nav">Ginecología oncológica</a>
+      <a href="/digestivo/" class="btn-nav">Digestivo</a>
+      <a href="/sarcomas-melanoma/" class="btn-nav">Sarcomas / Melanoma</a>
+    </section>
 
     <section class="about-services" id="sobre-mi-servicios">
       <div id="sobre-mi" class="col">
@@ -73,6 +83,7 @@
           <strong>acompañamiento humano</strong>, buscando siempre brindar el mejor enfoque para cada paciente.
         </p>
       </div>
+
       <div id="servicios" class="col">
         <h2>Servicios</h2>
         <ul>
@@ -97,7 +108,7 @@
         <ul class="contact-list">
           <li>
             📞 <strong>WhatsApp:</strong><br>
-            <a href="https://wa.me/593992564792">+593 992 564 792</a>
+            <a href="https://wa.me/593992564792">+593 992 564 792</a>
           </li>
           <li>
             ✉️ <strong>Email:</strong><br>
@@ -105,8 +116,8 @@
           </li>
           <li>
             📍 <strong>Dirección:</strong><br>
-            Hospital Metropolitano, Torre Médica 2, Piso 5, Consultorio 512.<br>
-            San Gabriel S/N, 170129 Quito
+            Hospital Metropolitano, Torre Médica 2, Piso 5, Consultorio 512.<br>
+            San Gabriel S/N, 170129 Quito
           </li>
         </ul>
       </div>
@@ -114,10 +125,10 @@
         <div class="interest-box">
           <h3>Temas de interés</h3>
           <ul>
-            <li><a href="mastologo-en-quito.html">Enfermedades mamarias benignas</a></li>
-            <li><a href="mastologo-en-quito/">Cáncer de mama</a></li>
-            <li><a href="ginecologia-oncologica.html">Ginecología oncológica</a></li>
-            <li><a href="enfermedades-tiroides.html">Enfermedades de la tiroides</a></li>
+            <li><a href="/enfermedades-benignas/">Enfermedades mamarias benignas</a></li>
+            <li><a href="/mastologo-en-quito/">Cáncer de mama</a></li>
+            <li><a href="/ginecologia-oncologica/">Ginecología oncológica</a></li>
+            <li><a href="/tiroides/">Enfermedades de la tiroides</a></li>
           </ul>
         </div>
       </div>
@@ -133,10 +144,11 @@
     </div>
 
     <footer>
-      <p>&copy; 2025 Dr. Leonardo Russo. Todos los derechos reservados.</p>
+      <p>&copy; 2025 Dr. Leonardo Russo. Todos los derechos reservados.</p>
     </footer>
   </div>
 
+  <!-- Datos estructurados -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +193,9 @@
   }
   </script>
 
+  <!-- Botón flotante de WhatsApp -->
   <a href="https://wa.me/593992564792" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
-    <img src="images/whatsapp.svg" alt="WhatsApp logo" width="32" height="32">
+    <img src="/images/whatsapp.svg" alt="WhatsApp logo" width="32" height="32">
   </a>
 
 </body>
