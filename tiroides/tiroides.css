@@ -65,9 +65,16 @@ header { padding:60px 40px 40px; }
 .faq summary { cursor:pointer; font-weight:bold; color:#333; }
 .faq p { margin-top:8px; line-height:1.5; }
 
-/* ===== Temas ===== */
-.topics-nav { display:flex; flex-wrap:wrap; gap:10px; padding:20px 40px; justify-content:center; }
-.topics-nav a { background:#2c3e50; color:#fff; padding:10px 18px; border-radius:6px; font-weight:bold; font-size:.95rem; transition:background .3s; }
+/* ===== Botones de navegación entre especialidades ===== */
+.topics-nav {
+  display:flex; flex-wrap:wrap; gap:10px; padding:20px 40px; justify-content:center;
+  /* sin margen superior extra: ya viene de la sección FAQ */
+}
+.topics-nav a {
+  background:#2c3e50; color:#fff; padding:10px 18px;
+  border-radius:6px; font-weight:bold; font-size:.95rem;
+  transition:background .3s ease;
+}
 .topics-nav a:hover { background:#1a252f; }
 
 /* ===== Contacto ===== */
