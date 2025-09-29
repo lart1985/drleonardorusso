@@ -132,11 +132,11 @@ header {
   list-style: none; /* elimina numeración del <ol> */
 }
 .breadcrumb li + li::before {
-  content: " / "; /* separador; cambiar por " › " si prefieres */
+  content: " / "; /* separador */
   color: #999;
 }
 
-/* Sección Mastología (renombrada) */
+/* Sección Mastología */
 .mastologia-section {
   display: flex;
   flex-direction: column;
@@ -157,7 +157,7 @@ header {
   line-height: 1.6;
 }
 
-/* Cards (enfermedades frecuentes) */
+/* Cards */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -260,14 +260,6 @@ header {
   color: #007bff;
 }
 
-/* Mapa */
-.map-container {
-  margin: 0 20px 40px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
 /* Botón flotante de WhatsApp */
 .whatsapp-float {
   position: fixed;
@@ -299,6 +291,6 @@ footer {
 /* Responsivo para la sección Mastología */
 @media (min-width: 768px) {
   .mastologia-section {
-    flex-direction: column; /* se mantiene columna; las cards se encargan del grid */
+    flex-direction: column; /* las cards ya hacen el grid */
   }
 }
