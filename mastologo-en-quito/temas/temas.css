@@ -1,0 +1,63 @@
+/* Extiende la hoja compartida para buscador, A–Z y categorías */
+
+/* Accesibilidad visual para labels ocultos */
+.sr-only {
+  position:absolute!important;
+  width:1px; height:1px; padding:0; margin:-1px; overflow:hidden;
+  clip:rect(0,0,0,0); border:0;
+}
+
+/* Subtítulos de sección */
+.section-subtitle{
+  margin:6px 0 16px;
+  color:#555;
+  line-height:1.6;
+  font-size:.98rem;
+}
+
+/* Buscador */
+.search-wrap {
+  display:flex; align-items:center; gap:10px;
+  background:#f9f9f9; border:1px solid #e0e0e0; border-radius:8px;
+  padding:10px 12px; max-width:520px;
+}
+.search-wrap input[type="search"]{
+  flex:1 1 auto; border:none; outline:none; font-size:1rem; background:transparent;
+}
+.search-wrap #clearSearch{
+  border:none; background:#eee; padding:6px 10px; border-radius:6px; cursor:pointer;
+}
+.search-wrap #clearSearch:hover{ background:#e2e2e2; }
+
+/* Píldoras A–Z */
+.az-wrap{
+  display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;
+}
+.az-pill{
+  border:1px solid #e0e0e0; background:#fff; border-radius:999px;
+  padding:6px 10px; font-weight:bold; cursor:pointer;
+}
+.az-pill:hover{ background:#fafafa; }
+
+/* Categorías */
+.categories{
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:16px;
+}
+.cat-block{
+  border:1px solid #e0e0e0; border-radius:8px; padding:16px; background:#fff;
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+.cat-block h3{ color:#2c3e50; margin-bottom:8px; font-size:1.05rem; }
+.cat-block ul{ list-style:disc; margin-left:18px; }
+.cat-block li{ margin:6px 0; }
+
+/* A–Z listado */
+.az-group{ margin-bottom:16px; }
+.az-group h3{ color:#2c3e50; margin:10px 0 6px; }
+.az-list{ list-style:disc; margin-left:24px; }
+.az-list li{ margin:6px 0; }
+
+/* Responsive */
+@media (max-width:767px){
+  .search-wrap{ max-width:100%; }
+}
