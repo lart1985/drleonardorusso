@@ -53,9 +53,14 @@ header { padding: 60px 40px 40px; }
 /* ===== Divisor ===== */
 .section-divider { border: none; border-top: 1px solid #e0e0e0; margin: 0 40px; }
 
-/* ===== Breadcrumb ===== */
+/* ===== Breadcrumb (sin numeración) ===== */
 .breadcrumb { font-size: 0.9rem; color: #555; padding: 10px 40px; }
-.breadcrumb ol { display: flex; gap: .5rem; flex-wrap: wrap; }
+.breadcrumb ol { 
+  display: flex; gap: .5rem; flex-wrap: wrap; 
+  list-style: none; padding-left: 0; margin: 0; 
+  counter-reset: none; 
+}
+.breadcrumb ol li { list-style: none; }
 .breadcrumb li + li::before { content: " / "; color: #999; }
 
 /* ===== Mastología ===== */
@@ -69,7 +74,7 @@ header { padding: 60px 40px 40px; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
-  margin: 20px 0; /* espacio vertical respecto a la línea divisoria */
+  margin: 20px 0; /* espacio vertical con la línea divisoria */
 }
 .card {
   background: #fff0f5;
