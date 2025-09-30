@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito</title>
-  <meta name="description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito.">
-  <link rel="canonical" href="https://drleonardorusso.ec/">
+  <meta name="description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito." />
+  <link rel="canonical" href="https://drleonardorusso.ec/" />
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito">
-  <meta property="og:description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito.">
-  <meta property="og:url" content="https://drleonardorusso.ec/">
-  <meta property="og:image" content="https://drleonardorusso.ec/images/preview.jpg">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito" />
+  <meta property="og:description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito." />
+  <meta property="og:url" content="https://drleonardorusso.ec/" />
+  <meta property="og:image" content="https://drleonardorusso.ec/images/preview.jpg" />
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito">
-  <meta name="twitter:description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito.">
-  <meta name="twitter:image" content="https://drleonardorusso.ec/images/preview.jpg">
-  <meta name="twitter:site" content="@drleonardorusso">
-  <meta name="twitter:creator" content="@drleonardorusso">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dr. Leonardo Russo – Mastólogo y Cirujano Oncológico en Quito" />
+  <meta name="twitter:description" content="Atención especializada en enfermedades mamarias y cirugía oncológica en Quito." />
+  <meta name="twitter:image" content="https://drleonardorusso.ec/images/preview.jpg" />
+  <meta name="twitter:site" content="@drleonardorusso" />
+  <meta name="twitter:creator" content="@drleonardorusso" />
 
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-
   <div class="wrapper">
-    <!-- NAV principal con rutas absolutas -->
-    <nav>
-      <a href="/" class="logo">
-        <img src="/images/logo.webp" alt="Logo Dr. Leonardo Russo">
+    <!-- NAV principal -->
+    <nav class="site-nav" aria-label="Principal">
+      <a href="/" class="logo" aria-label="Inicio">
+        <img src="/images/logo.webp" alt="Logo Dr. Leonardo Russo" />
       </a>
-      <ul>
+
+      <!-- Botón hamburguesa (visible en móvil) -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-box" aria-hidden="true">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </span>
+        <span class="visually-hidden">Abrir menú</span>
+      </button>
+
+      <!-- Enlaces (siempre en el HTML para SEO) -->
+      <ul id="nav-links" class="nav-links">
         <li><a href="/">Inicio</a></li>
         <li><a href="/#sobre-mi">Sobre mí</a></li>
         <li><a href="/#servicios">Servicios</a></li>
@@ -43,7 +54,7 @@
     <header id="inicio">
       <div class="header-content">
         <div class="profile">
-          <img src="/images/profile.webp" alt="Dr. Leonardo Russo" class="profile-img">
+          <img src="/images/profile.webp" alt="Dr. Leonardo Russo" class="profile-img" />
         </div>
         <div class="intro">
           <h1>Dr. Leonardo Russo</h1>
@@ -54,9 +65,9 @@
       </div>
     </header>
 
-    <hr class="section-divider">
+    <hr class="section-divider" />
 
-    <!-- SUBNAVEGACIÓN TEMÁTICA (antes de Sobre mí) -->
+    <!-- SUBNAVEGACIÓN TEMÁTICA -->
     <section class="subnav-buttons" aria-label="Secciones clínicas">
       <a href="/mastologo-en-quito/" class="btn-nav">Mastología</a>
       <a href="/tiroides/" class="btn-nav">Tiroides</a>
@@ -100,23 +111,23 @@
       </div>
     </section>
 
-    <hr class="section-divider">
+    <hr class="section-divider" />
 
     <section id="contacto" class="contact-section">
       <div class="contact-info col">
         <h2>Contacto</h2>
         <ul class="contact-list">
           <li>
-            📞 <strong>WhatsApp:</strong><br>
+            📞 <strong>WhatsApp:</strong><br />
             <a href="https://wa.me/593992564792">+593 992 564 792</a>
           </li>
           <li>
-            ✉️ <strong>Email:</strong><br>
+            ✉️ <strong>Email:</strong><br />
             <a href="mailto:consultoriorusso@gmail.com">consultoriorusso@gmail.com</a>
           </li>
           <li>
-            📍 <strong>Dirección:</strong><br>
-            Hospital Metropolitano, Torre Médica 2, Piso 5, Consultorio 512.<br>
+            📍 <strong>Dirección:</strong><br />
+            Hospital Metropolitano, Torre Médica 2, Piso 5, Consultorio 512.<br />
             San Gabriel S/N, 170129 Quito
           </li>
         </ul>
@@ -134,13 +145,13 @@
       </div>
     </section>
 
-    <hr class="section-divider">
+    <hr class="section-divider" />
 
     <div class="map-container">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7965712465516!2d-78.4950495!3d-0.18918290000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59b2e47d5e257%3A0xde923aafc07b43df!2sDoctor%20Leonardo%20Russo.%20Mastologo%20Cirujano%20oncologo!5e0!3m2!1ses-419!2sec!4v1753845177821!5m2!1ses-419!2sec"
-        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
+        width="100%" height="300" style="border:0" allowfullscreen="" loading="lazy"
+      ></iframe>
     </div>
 
     <footer>
@@ -195,8 +206,30 @@
 
   <!-- Botón flotante de WhatsApp -->
   <a href="https://wa.me/593992564792" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
-    <img src="/images/whatsapp.svg" alt="WhatsApp logo" width="32" height="32">
+    <img src="/images/whatsapp.svg" alt="WhatsApp" width="32" height="32" />
   </a>
 
+  <!-- JS mínimo para el menú -->
+  <script>
+    (function () {
+      const btn = document.querySelector('.nav-toggle');
+      const list = document.getElementById('nav-links');
+
+      if (!btn || !list) return;
+
+      btn.addEventListener('click', function () {
+        const isOpen = list.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      // Cerrar al navegar (mejor UX en móvil)
+      list.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A' && list.classList.contains('open')) {
+          list.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
